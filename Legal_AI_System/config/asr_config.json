@@ -1,0 +1,24 @@
+{
+    "whisper": {
+        "model_size": "base",
+        "device": "cpu",
+        "language": "en",
+        "fp16": false
+    },
+    "faster_whisper": {
+        "model_size": "base",
+        "device": "cpu",
+        "compute_type": "int8",
+        "language": "en",
+        "beam_size": 5
+    },
+    "google_speech": {
+        "language": "en-IN",
+        "timeout": 30
+    },
+    "comparison": {
+        "confidence_threshold": 0.5,
+        "prefer_faster_models": false,
+        "output_format": "detailed"
+    }
+}

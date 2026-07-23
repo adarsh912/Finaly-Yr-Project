@@ -1,0 +1,42 @@
+{
+    "single_model": {
+        "model_path": "models/trained_model",
+        "threshold": 0.25,
+        "max_predictions": 5,
+        "max_length": 512
+    },
+    "multimodal": {
+        "ipc_dataset_path": "data/ipc_sections.csv",
+        "llm_integration": true,
+        "model_selection": "auto"
+    },
+    "unified": {
+        "default_mode": "multimodal",
+        "fallback_to_single": true,
+        "confidence_threshold": 0.3
+    },
+    "audio": {
+        "samples_dir": "data/audio_samples",
+        "supported_formats": [
+            "mp3",
+            "wav",
+            "m4a",
+            "flac"
+        ],
+        "speech_recognition": {
+            "engine": "google",
+            "language": "en-IN",
+            "timeout": 30
+        },
+        "preprocessing": {
+            "noise_reduction": true,
+            "normalize_audio": true,
+            "sample_rate": 16000
+        }
+    },
+    "system": {
+        "log_level": "INFO",
+        "save_results": true,
+        "output_dir": "results"
+    }
+}

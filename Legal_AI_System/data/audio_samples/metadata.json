@@ -1,0 +1,40 @@
+{
+    "audio_samples": [
+        {
+            "filename": "audio1.mp3",
+            "description": "Sample legal audio recording 1",
+            "duration_seconds": null,
+            "format": "mp3",
+            "size_bytes": 140604,
+            "expected_sections": [],
+            "notes": "Test audio file for legal document analysis"
+        },
+        {
+            "filename": "audio2.mp3",
+            "description": "Sample legal audio recording 2",
+            "duration_seconds": null,
+            "format": "mp3",
+            "size_bytes": 114690,
+            "expected_sections": [],
+            "notes": "Test audio file for legal document analysis"
+        },
+        {
+            "filename": "audio3.mp3",
+            "description": "Sample legal audio recording 3",
+            "duration_seconds": null,
+            "format": "mp3",
+            "size_bytes": 118034,
+            "expected_sections": [],
+            "notes": "Test audio file for legal document analysis"
+        }
+    ],
+    "total_samples": 3,
+    "supported_formats": [
+        "mp3",
+        "wav",
+        "m4a",
+        "flac"
+    ],
+    "created_date": "2024-06-29",
+    "purpose": "Testing audio modality analysis for legal document classification"
+}
